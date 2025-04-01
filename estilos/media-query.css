@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* GRADIENTE
+
+    Bege1       #F9DAAC
+    Laranjado   #FF9959
+    Bege2       #FAE2B6
+
+*/
+
+@media screen and (min-width: 768px){
+    body {
+        background-image: linear-gradient(to bottom, #F9DAAC, #FF9959);
+    }
+}
