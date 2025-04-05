@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* PALETA DE CORES
+
+    Azul escuro     #03658C
+    Azul claro      #0388A6
+    Bege            #F2DDB6
+    Amarelo         #F28705
+    Laranjado       #F25C05
+
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #03658C;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.400);
+    border-radius: 10px;
+}
+
+#imagem {
+    background: url(../imagens/pintura.jpg) no-repeat center;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#formulario {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#formulario h1 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+
+#formulario p {
+    font-size: 0.8em;
+    text-align: left;
+    padding: 0px 10px 15px 10px;
+}
+
+.divform {
+    background-color: #03658C;
+    color: white;
+    position: relative;
+    width: 280px;
+    height: 35px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+#iconperson {
+    font-size: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 2px;
+    padding-bottom: 5px;
+}
+
+#iconkey {
+    font-size: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 2px;
+    padding-bottom: 5px;
+}
+
+.entrada {
+    background-color: #ebf9ff;
+    position: absolute;
+    top: 5px;
+    left: 45px;
+    width: 230px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    text-indent: 5px;
+}
+
+.botao {
+    width: 280px;
+    margin: auto;
+}
+
+#entrar {
+    background-color: #F28705;
+    color: white;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 15px 0px 5px 0px;
+}
+
+#entrar:hover {
+    background-color: #F25C05;
+}
+
+#esqueci {
+    background-color: white;
+    color: #F25C05;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #F25C05;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#esqueci:hover {
+    background-color: #F25C05;
+    border-color: #F25C05;
+    color: white;
+}
